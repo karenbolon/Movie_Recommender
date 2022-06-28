@@ -1,0 +1,28 @@
+img {
+    max-width:30%;
+    float:right
+  }
+  
+#h1_main {
+  background-color:lightblue;
+  text-align:center;
+  font-size:20px
+}
+  
+.exthref {
+  color:darkblue;
+}
+  
+.container {
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-top: 250px;
+  margin-right: 250px;
+  }
+
+input[type="text"]::placeholder {  
+                  
+    /* Firefox, Chrome, Opera */ 
+    padding-left: 10px; 
+} 
+/*Must include type="text" in HTML*/

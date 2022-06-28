@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Recommendations!</title>
+</head>
+
+<style>
+  body {
+    background-image: url("static/images/Movie_Background.jpeg");
+    background-repeat: no-repeat;
+  }
+  </style>
+
+
+<body>
+  <body style="background-color:powderblue;">
+
+    <ol style="width:40%; float:left; display:inline-block; vertical-align:text-top;"><br>
+      <h1 style="color:rgb(255, 255, 0)"> Top 10 Films of all time</h1>  
+      <h2 style="color:rgba(255, 255, 0, 0.900)">As voted by 100's of viewers like you:</h2>
+      <b>
+        <li><font size="+1">Forrest Gump</li></font>
+        <li><font size="+1">Shawshank Redemption</li></font>
+        <li><font size="+1">Pulp Fiction</li></font>
+        <li><font size="+1">The Silence of the Lambs</li></font>
+        <li><font size="+1">The Matrix</li></font>
+        <li><font size="+1">Star Wars: Episode IV - A New Hope</li></font>
+        <li><font size="+1">Jurassic Park</li></font>
+        <li><font size="+1">Braveheart</li></font>
+        <li><font size="+1">Terminator 2: Judgment Day</li></font>
+        <li><font size="+1">Schindler's  List</li></font>
+      </b>
+      </ol>
+
+    <ul><br><br>
+    <h1 style="color:rgba(255, 255, 0)"> My recommendations for you...</h1>
+    <h2 style="color:rgba(255, 255, 0, 0.900)"> Here are your recommended movies:</h2>
+
+    {% for m in movies%}
+    <b><li><font size="+1">{{ m }}</li></font></b>
+    {% endfor %}<br><br>
+    <p><strong><font size="+2">
+    <a href="/">Go back to main page</a></strong></font>
+    </p>
+  </ul>
+      </p>
+
+</body>
+
+</html>
